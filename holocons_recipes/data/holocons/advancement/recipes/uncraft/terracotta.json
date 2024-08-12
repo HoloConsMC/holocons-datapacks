@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#holocons:stained/terracotta"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "holocons:uncraft/terracotta"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_terracotta"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "holocons:uncraft/terracotta"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "holocons:stained/glass"
+    }
+  ],
+  "result": {
+    "id": "minecraft:glass"
+  }
+}

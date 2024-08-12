@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_horn_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#holocons:coral/horn"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "holocons:renewable/coral_block/horn"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_horn_coral"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "holocons:renewable/coral_block/horn"
+    ]
+  }
+}

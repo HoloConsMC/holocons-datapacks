@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BD",
+    "DB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:smooth_basalt"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "result": {
+    "id": "minecraft:tuff",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "coral_block",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "holocons:coral/fire"
+    }
+  },
+  "result": {
+    "id": "minecraft:fire_coral_block"
+  }
+}
