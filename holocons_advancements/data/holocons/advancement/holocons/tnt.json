@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt",
+      "count": 1
+    },
+    "title": "You're a Pekowide",
+    "description": "Acquire TNT",
+    "frame": "task"
+  },
+  "parent": "holocons:holocons/root",
+  "criteria": {
+    "tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tnt"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tnt"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
