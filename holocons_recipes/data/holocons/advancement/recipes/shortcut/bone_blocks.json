@@ -1,6 +1,16 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_bone_meal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone_meal"
+          }
+        ]
+      }
+    },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -10,7 +20,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_bone_meal"
     ]
   ],
   "rewards": {
