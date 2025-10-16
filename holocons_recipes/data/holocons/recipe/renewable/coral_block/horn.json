@@ -1,16 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "coral_block",
+  "key": {
+    "#": "#holocons:coral/horn"
+  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
-  "key": {
-    "#": {
-      "tag": "holocons:coral/horn"
-    }
-  },
   "result": {
     "id": "minecraft:horn_coral_block"
   }

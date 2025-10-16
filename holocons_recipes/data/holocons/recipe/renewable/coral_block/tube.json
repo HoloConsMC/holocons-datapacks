@@ -1,16 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "coral_block",
+  "key": {
+    "#": "#holocons:coral/tube"
+  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
-  "key": {
-    "#": {
-      "tag": "holocons:coral/tube"
-    }
-  },
   "result": {
     "id": "minecraft:tube_coral_block"
   }
